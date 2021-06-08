@@ -1,5 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Open+Sans:wght@400;600;700&display=swap');
 
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url('../fonts/Montserrat-Regular.eot');
+    src: local('☺'),
+    url('../fonts/Montserrat-Regular.woff') format('woff'),
+    url('../fonts/Montserrat-Regular.ttf') format('truetype'),
+    url('../fonts/Montserrat-Regular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat-SemiBold';
+    src: url('../fonts/Montserrat-SemiBold.eot');
+    src: local('☺'),
+    url('../fonts/Montserrat-SemiBold.woff') format('woff'),
+    url('../fonts/Montserrat-SemiBold.ttf') format('truetype'),
+    url('../fonts/Montserrat-SemiBold.svg') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url('../fonts/Montserrat-Bold.eot');
+    src: local('☺'),
+    url('../fonts/Montserrat-Bold.woff') format('woff'),
+    url('../fonts/Montserrat-Bold.ttf') format('truetype'),
+    url('../fonts/Montserrat-Bold.svg') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+
 @import "nullstyle.scss";
 
 body{
@@ -125,7 +158,7 @@ body{
     &__dropdown-btn{
         width: 16px;
         height: 16px;
-        background-image: url(/img/a_icon_arrow.svg);
+        background-image: url(../img/a_icon_arrow.svg);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
@@ -144,7 +177,7 @@ body{
     &__btn-notofication {
          width: 16px;
          height: 16px;
-         background-image: url(/img/bell.svg);
+         background-image: url(../img/bell.svg);
          background-repeat: no-repeat;
          background-position: center center;
          background-color: transparent;
@@ -152,7 +185,7 @@ body{
     &__btn-share {
          width: 16px;
          height: 16px;
-         background-image: url(/img/share_recap.svg);
+         background-image: url(../img/share_recap.svg);
          background-repeat: no-repeat;
          background-position: center center;
          background-color: transparent;
@@ -161,7 +194,7 @@ body{
     &__btn-medium {
          width: 16px;
          height: 16px;
-         background-image: url(/img/medium.svg);
+         background-image: url(../img/medium.svg);
          background-repeat: no-repeat;
          background-position: center center;
          background-color: transparent;
@@ -235,7 +268,7 @@ body{
             width: 20px; 
             height: 20px;
             margin-right: 8px;
-            background-image: url(/img/edit_icon.svg);
+            background-image: url(../img/edit_icon.svg);
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -292,7 +325,7 @@ body{
     position:absolute;
     width: 20px;
     height: 20px;
-    background-image: url(/img/icon_3_dots_menu.svg);
+    background-image: url(../img/icon_3_dots_menu.svg);
     background-repeat: no-repeat;
     background-size: 16px 16px;
     background-position: center;
@@ -343,7 +376,7 @@ body{
 
 
 .report__icon {
-            background-image: url(/img/icon_report.svg);
+            background-image: url(../img/icon_report.svg);
             width: 20px;
             height: 20px;
             margin-right: 8px;
@@ -357,7 +390,7 @@ body{
         display: flex;
    
         &__icon {
-              background-image: url(/img/icon_block.svg);
+              background-image: url(../img/icon_block.svg);
               width: 20px;
               height: 20px;
               margin-right: 8px;
@@ -484,7 +517,7 @@ body{
         .share-desc-icon{
             width: 20px;
             height: 20px;
-            background-image: url(/img/icon_link.svg);
+            background-image: url(../img/icon_link.svg);
             background-position: center;
             background-repeat: no-repeat;
             background-size: 16px 16px;
@@ -554,7 +587,7 @@ body{
         align-items: center;
     }
     .view-icon {
-        background-image: url(/img/icon_view.svg);
+        background-image: url(../img/icon_view.svg);
         width: 16px;
         height: 16px;
         margin-right: 8px;
@@ -563,7 +596,7 @@ body{
         background-size: 16px 16px;
     }
     .like-icon {
-        background-image: url(/img/icon_like.svg);
+        background-image: url(../img/icon_like.svg);
         width: 20px;
         height: 20px;
         margin-right: 8px;
@@ -574,7 +607,7 @@ body{
 }
 
 @media (max-width:1400px) {
-    
+
 }
 
 @media (max-width:992px){
